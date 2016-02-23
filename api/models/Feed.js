@@ -20,7 +20,14 @@ module.exports = {
 	           model:'country'
 	    },
 	    thumbBucket: 'string',
-        thumb: 'string'
+        thumb: 'string',
+        likes: 'integer',
+        shares: 'integer',
+        pins: 'integer',
+        comments: 'integer',
+        tags: {
+      		collection:'string'
+    	}
 
   }
 };
