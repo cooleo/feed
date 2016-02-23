@@ -1,2 +1,3 @@
-# feed
-feed api
+# feeds-api
+
+a [Sails](http://sailsjs.org) application
