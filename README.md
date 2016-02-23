@@ -1,3 +1,3 @@
 # feeds-api
 
-a [Sails](http://sailsjs.org) application
+feeds api service
