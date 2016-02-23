@@ -8,24 +8,19 @@
 module.exports = {
 
   attributes: {
-  		title: 'STRING',
-	    description: 'STRING',
+  		title: 'string',
+	    description: 'string',
 	    url: {
-	      type: 'STRING',
+	      type: 'string',
 	      require: true,
 	      unique: true
 	    },
-	    content: 'TEXT',
+	    content: 'text',
 	    country:{
 	           model:'country'
 	    },
-	    thumb: {
-	           model:'thumb'
-	    },
-	    photos: {
-	      collection: 'photo',
-	      via:'feed'
-	    }
+	    thumbBucket: 'string',
+        thumb: 'string'
 
   }
 };

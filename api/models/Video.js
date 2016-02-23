@@ -15,7 +15,7 @@ module.exports = {
     duaration: 'string',
     length:    'string',
     thumbBucket: 'string',
-    thumbFile: 'string',
+    thumb: 'string',
     type: 'integer', // movies, music mv, clip, funny clip...
     extention: 'string'
   }

@@ -8,7 +8,27 @@
 module.exports = {
 
   attributes: {
-
+	slug: 'string',
+    title: 'string',
+    description: 'string',
+    duaration: 'string',
+    length:    'integer',
+    imbd:'string',
+    year: 'integer',
+    actors: 'string',
+    actist: 'string',
+    url: 'string',
+    content: 'text',
+    thumbBucket: 'string',
+    thumb: 'string',
+    content:'string',
+    country: {
+      model: 'country'
+    },
+    videos: {
+      collection: 'video',
+      via:'movie'
+    }
   }
 };
 
