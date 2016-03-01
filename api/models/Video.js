@@ -12,11 +12,16 @@ module.exports = {
     description: 'string',
     bucket: 'string',
     filename: 'string',
+    embed:'string',
+    sourceId:'string',
     duaration: 'string',
     length:    'string',
     thumbBucket: 'string',
     thumb: 'string',
-    type: 'integer', // movies, music mv, clip, funny clip...
+    type: 'integer', // 0: internal, 1: external
+    source:{
+        model:'source'
+    },
     extention: 'string'
   }
 };

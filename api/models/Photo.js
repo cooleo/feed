@@ -13,7 +13,11 @@ module.exports = {
     height: 'integer',
     bucket: 'string',
     filename: 'string',
-    extention: 'string'
+    extention: 'string',
+    type: 'integer',           //0 internal, 1 external
+    source:{
+        model:'source'
+    }
   }
 };
 

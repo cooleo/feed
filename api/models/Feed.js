@@ -16,18 +16,27 @@ module.exports = {
 	      unique: true
 	    },
 	    content: 'text',
-	    country:{
-	           model:'country'
+	    source:{
+	           model:'source'
 	    },
+      owner: {
+             model: 'user'
+      },
 	    thumbBucket: 'string',
-        thumb: 'string',
-        likes: 'integer',
-        shares: 'integer',
-        pins: 'integer',
-        comments: 'integer',
-        tags: {
-      		collection:'string'
-    	}
+      thumb: 'string',
+      likes: 'integer',
+      shares: 'integer',
+      pins: 'integer',
+      comments: 'integer',
+      points: 'integer', // = sum(likes, shares, pins, comments)
+      tags: {
+      		collection:'tag'
+    	},
+      status: 'integer',//1 active, 0 inactive
+      videoId: 'string',
+      photoId: 'string',
+      articleId: 'string',
+
 
   }
 };
