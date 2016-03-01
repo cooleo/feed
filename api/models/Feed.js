@@ -11,9 +11,7 @@ module.exports = {
   		title: 'string',
 	    description: 'string',
 	    url: {
-	      type: 'string',
-	      require: true,
-	      unique: true
+	      type: 'string'
 	    },
 	    content: 'text',
 	    source:{
