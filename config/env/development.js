@@ -19,6 +19,7 @@ module.exports = {
 
    models: {
      connection: 'devMongoDB'
-   }
+  },
+  port: 1441
 
 };
