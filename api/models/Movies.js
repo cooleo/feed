@@ -26,8 +26,7 @@ module.exports = {
       model: 'country'
     },
     videos: {
-      collection: 'video',
-      via:'movie'
+      collection: 'video'
     }
   }
 };
